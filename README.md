@@ -9,12 +9,12 @@ Display the result to the user
 Here's a breakdown of the provided Python code:
 
 1. Contact Class:
-   - Defines a `Contact` class with attributes name, phone_number, email, and address.
+   - Defines a Contact class with attributes name, phone_number, email, and address.
    - The __init__ method initializes these attributes when a new Contact object is created.
 
 2. ContactBook Class:
-   - Defines a `ContactBook` class.
-   - The `__init__` method initializes a list called contacts to store instances of the Contact class.
+   - Defines a ContactBook class.
+   - The __init__ method initializes a list called contacts to store instances of the Contact class.
 
 3. ContactBook Methods:
 1. add_contact(self, contact)
