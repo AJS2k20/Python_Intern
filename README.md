@@ -70,3 +70,27 @@ In this repository, I have completed the following tasks as part of the codsoft 
   
 4. Rock Paper Scissors Game: (rps.py)
 
+    1.User Input Function (get_user_choice):
+        Prompts the user to input their choice (rock, paper, or scissors).
+        Uses a while loop to ensure the user enters a valid choice.
+        Returns the lowercase version of the user's valid choice.
+
+    2.Computer Choice Function (get_computer_choice):
+        Randomly selects the computer's choice from the options: rock, paper, or scissors.
+
+    3. Winner Determination Function (determine_winner):
+        Takes the user's choice and the computer's choice as parameters.
+        Determines the winner based on the rock-paper-scissors rules.
+        Returns a string indicating the result: tie, user wins, or computer wins.
+
+    4. Result Display Function (display_result):
+        Takes the user's choice, computer's choice, and the result as parameters.
+        Prints the user's choice, computer's choice, and the result of the round.
+
+    5. Game Execution Function (play_game):
+        Initializes scores for the user and computer.
+        Asks the user if they want to play again and continues the game accordingly.
+        Calls the user input function, computer choice function, and winner determination function.
+        Displays the result of each round and updates the scores.
+        Continues the game until the user decides not to play again.
+        Prints the final score of the game.
