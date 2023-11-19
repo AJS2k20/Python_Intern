@@ -45,3 +45,28 @@ In this repository, I have completed the following tasks as part of the codsoft 
 
 6. Program Execution:
    - Calls the main function if the script is run as the main module (__name__ == "__main__").
+  
+3.Password Generator: (pwgenerator.py)
+
+1. **Imports:**
+   - Imports the `random` module for generating random values.
+   - Imports the `string` module, which provides string-related constants.
+
+2. **Password Generation Function (`generate_password`):**
+   - Defines a function to generate a random password of a specified length.
+   - Uses a combination of ASCII letters, digits, and punctuation for character choices.
+   - Utilizes the `random.choice` function to create the password.
+
+3. **Main Function (`main`):**
+   - Prompts the user to enter the desired length of the password.
+   - Handles potential errors in user input using a `try-except` block.
+   - Validates that the entered length is a positive integer.
+   - Calls the `generate_password` function and prints the generated password.
+   - Displays an error message if the entered value is not a valid integer.
+
+4. **Script Execution Check:**
+   - Checks if the script is being run as the main module.
+   - If true, calls the `main` function to execute the program.
+  
+4. Rock Paper Scissors Game: (rps.py)
+
