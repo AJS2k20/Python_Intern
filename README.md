@@ -94,3 +94,22 @@ In this repository, I have completed the following tasks as part of the codsoft 
         Displays the result of each round and updates the scores.
         Continues the game until the user decides not to play again.
         Prints the final score of the game.
+5. To Do List
+   1.To-Do List Class (ToDoList):
+        Attributes:
+            tasks: A list to store tasks as dictionaries with keys "task" and "completed".
+   2.Methods:
+            add_task(task): Adds a new task to the to-do list with a default status of "Not Completed."
+            view_tasks(): Displays the current tasks in the to-do list, including their completion status.
+            mark_as_completed(task_index): Marks a specific task as completed based on its index.
+            delete_task(task_index): Deletes a specific task from the to-do list based on its index.
+
+   3.Main Function (main):
+        Creates an instance of the ToDoList class to manage the to-do list.
+        Implements a menu-driven loop where the user can choose various actions related to managing tasks.
+        Choices include adding tasks, viewing tasks, marking tasks as completed, deleting tasks, or exiting the program.
+
+   4.Script Execution Check:
+        Checks if the script is being run as the main module (__name__ == "__main__").
+        If true, calls the main function to execute the program.
+   
