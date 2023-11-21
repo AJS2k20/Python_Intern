@@ -1,3 +1,4 @@
+#DO NOT CONSIDER FOR INTERNSHIP
 import random
 
 def get_user_choice():
